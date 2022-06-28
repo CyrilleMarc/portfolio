@@ -1,0 +1,12 @@
+#logo{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    padding: 35px;
+    
+}
+
+header{
+    background-color: aqua;
+    height: 200px;
+}
