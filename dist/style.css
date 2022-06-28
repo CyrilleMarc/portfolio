@@ -71,7 +71,7 @@ nav ul li:hover{
     color: #818181;
     font-weight: 500;
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .page-content .body-image{
@@ -98,7 +98,7 @@ nav ul li:hover{
 
 .page-content .projects-section .projects .project {
     max-width: 195px;
-    margin-right: 112px;
+    margin-right: 60px;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
 }
