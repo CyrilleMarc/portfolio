@@ -3,6 +3,7 @@ body{
     padding: 0 2%;
 }
 
+/* PAGE INDEX */
 nav{
     display: flex;
     flex-wrap: wrap;
@@ -25,7 +26,7 @@ nav .profile img{
 }
 
 nav .profile h1{
-    font-size: 20px;
+    font-size: 23px;
     margin-left: 10px;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
@@ -45,9 +46,7 @@ nav ul li{
     border-bottom: 2px solid white;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
-    color: black;
-    font-size: ;
-    
+    color: black; 
 }
 
 nav ul li:hover{
@@ -147,6 +146,8 @@ footer .colonne p:hover{
     color:#fff;
 }
 
+/* PAGE REALISATIONS */
+
 .photo_projets{
     width: 100%;
     height: 700px;
@@ -170,6 +171,9 @@ footer .colonne p:hover{
     font-family: 'Oswald', sans-serif;
     font-size: 25;
 }
+
+
+/* PAGE CONTACTS */
 
 .contacts .coordonnees{
     display: flex;
@@ -216,6 +220,10 @@ footer .colonne p:hover{
     align-content: center;
 }
 
+/* PAGE CV */
+
+
+
 @media screen and (max-width: 700px) {
     nav {
         justify-content: center;
@@ -230,7 +238,7 @@ footer .colonne p:hover{
         max-width: 100%;
     }
     .page-content header h1{
-        margin-left: 25%;
+        margin-left: 15%;
     }
 
 .profile{
