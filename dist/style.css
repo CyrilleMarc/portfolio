@@ -31,9 +31,12 @@ nav .profile h1{
     font-weight: bolder;
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style-type: none;
+}
+nav ul a{
+text-decoration: none;
 }
 
 nav ul li{
@@ -42,6 +45,7 @@ nav ul li{
     border-bottom: 2px solid white;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
+    color: black;
     
 }
 
@@ -71,7 +75,7 @@ nav ul li:hover{
     color: #818181;
     font-weight: 500;
     font-family: 'Oswald', sans-serif;
-    font-size: 22px;
+    font-size: 23px;
 }
 
 .page-content .body-image{
@@ -140,6 +144,30 @@ footer .colonne p{
 
 footer .colonne p:hover{
     color:#fff;
+}
+
+.photo_projets{
+    width: 100%;
+    height: 700px;
+}
+.projects-realisations h4{
+    margin: 0;
+    font-size: 40px;
+    margin-top: 60px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.projects-realisations .presentation{
+    margin: 0;
+    font-size:30px;
+    font-family: 'Oswald', sans-serif;
+    color:#818181;
+}
+
+.projects-realisations .date{
+    color: #818181;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25;
 }
 
 @media screen and (max-width: 700px) {
